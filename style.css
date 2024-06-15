@@ -18,7 +18,7 @@ body::before {
   height: 100vh;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
   }
