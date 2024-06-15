@@ -23,7 +23,7 @@ body::before {
     background-attachment: fixed;
     background-image: url("bg.jpg");
   background-size: cover;
-    left: 40px;
+    left: 40vh;
   }
 }
 
