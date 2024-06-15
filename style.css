@@ -20,20 +20,12 @@ body::before {
 
 @media (min-width: 1024px) {
   body::before {
-    background-image: url("bg2.jpg");
-/*     background-attachment: fixed; */
-    
-  background-size: cover;
-  }
-}
-media (max-width: 1024px) {
-  body::before {
-    background-image: url("bg.jpg");
+ 
     background-attachment: fixed;
     
-  background-size: cover;
   }
 }
+
 a {
   color: #12d640;
 }
