@@ -33,7 +33,7 @@
 
   <!-- Template Main CSS File -->
   <link href="style.css" rel="stylesheet">
-
+<link href="style1.css" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
@@ -509,27 +509,46 @@
       </div>
 
     </div>
-<div class="contact__form-container">
-                <form action="https://formspree.io/f/mayrrvrw" method="POST">
-                    <div class="contact__form-field">
-                        <label class="contact__form-label" for="name">Name</label>
-                        <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name" />
-                    </div>
-                    <div class="contact__form-field">
-                        <label class="contact__form-label" for="mail">Email</label>
-                        <input required placeholder="Enter Your Email" type="mail" class="contact__form-input" name="mail" id="mail" />
-                    </div>
-                    <div class="contact__form-field">
-                        <label class="contact__form-label" for="phone">Phone</label>
-                        <input required placeholder="Enter Your phone" type="number" class="contact__form-input" name="phone" id="phone" />
-                    </div>
-                    <div class="contact__form-field">
-                        <label class="contact__form-label" for="msg">Message</label>
-                        <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your message" name="msg" id="msg"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn--theme contact__btn">Submit</button>
-                </form>
-            </div>
+<div id="contact-form">
+  <div>
+    <h1>Nice to Meet You!</h1> 
+    <h4>Have a question or just want to get in touch? Let's chat.</h4> 
+  </div>
+     
+
+       <form method="POST" action="https://formspree.io/f/mayrrvrw">
+      <div>
+          <label for="name">
+            <span class="required">Name: *</span> 
+            <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+          </label> 
+      </div>
+      <div>
+          <label for="email">
+            <span class="required">Email: *</span>
+            <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+          </label>  
+      </div>
+      <div>             
+          <label for="subject">
+          <span>Mobile no: </span>
+            <input type="number" id="subject" name="subject" placeholder="Mobile no" tabindex="3" required>   
+               
+            
+          </label>
+      </div>
+      <div>             
+          <label for="message">
+            <span class="required">Message: *</span> 
+            <textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+          </label>  
+      </div>
+      <div>              
+          <button name="submit" type="submit" id="submit" >SEND</button> 
+      </div>
+       </form>
+
+  </div>
       
     
   </section>
