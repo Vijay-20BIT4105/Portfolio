@@ -1,2 +1,3 @@
 just check it through....
 https://portfolio-vijay.pages.dev
+![qrcode_portfolio-vijay pages dev](https://github.com/Vijay-20BIT4105/Portfolio/assets/118276711/ebfc914a-aad8-44f7-922e-c8116eddaec9)
