@@ -22,11 +22,11 @@ h4{
    margin: 0 0 20px 0;
 }
 #contact-form {
-   background-color:rgba(72,72,72,0.9);
-   padding: 10px 20px 30px 20px;
+   background-color:violet;
+   padding: 10px 20px 20px 20px;
    max-width:100%;
    float: left;
-   left: 50%;
+   left: 70%;
    position: absolute;
    margin-top:30px;
    margin-left: -300px;
